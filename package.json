@@ -1,0 +1,21 @@
+{
+  "name": "fileSystemsDay40",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Meyazhagan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-and-time": "^2.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
