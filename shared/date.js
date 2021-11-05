@@ -6,14 +6,14 @@ module.exports.getTimeContent = () => {
   const logPattern = "dd/MM/yyyy HH:mm:ss (z)";
   const dateTimePattern = "dd_MM_yyyy-HH_mm_ss";
   const content = format(zonedDate, {
-    timeZone: "Asia/Calcutta",
+    timeZone: "Asia/Kolkata",
   });
   const dateTime = format(zonedDate, dateTimePattern, {
-    timeZone: "Asia/Calcutta",
+    timeZone: "Asia/Kolkata",
   });
 
   const logTime = format(zonedDate, logPattern, {
-    timeZone: "Asia/Calcutta",
+    timeZone: "Asia/Kolkata",
   });
 
   return { content, dateTime, logTime };
