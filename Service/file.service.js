@@ -27,7 +27,7 @@ module.exports = {
   },
 
   post: (req, res) => {
-    const { content, filename } = getTimeContent();
+    const { content, dateTime: filename } = getTimeContent();
     // creating new file with current timestamp
     fs.writeFile(getPath(filename), content, (err) => {
       if (err) return res.status(400).send(err.message);
